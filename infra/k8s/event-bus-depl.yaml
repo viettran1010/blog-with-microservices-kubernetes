@@ -15,7 +15,7 @@ spec:
       containers:
         - name: event-bus
           image: viettran1010/event-bus
-          imagePullPolicy: Always
+          # imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

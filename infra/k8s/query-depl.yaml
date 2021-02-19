@@ -15,7 +15,7 @@ spec:
       containers:
         - name: query
           image: viettran1010/query
-          imagePullPolicy: Always
+          # imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

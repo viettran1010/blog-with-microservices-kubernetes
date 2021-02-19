@@ -15,7 +15,7 @@ spec:
       containers:
         - name: moderation
           image: viettran1010/moderation
-          imagePullPolicy: Always
+          # imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

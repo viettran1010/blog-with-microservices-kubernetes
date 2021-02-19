@@ -15,7 +15,7 @@ spec:
       containers:
         - name: posts
           image: viettran1010/posts
-          imagePullPolicy: Always
+          # imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

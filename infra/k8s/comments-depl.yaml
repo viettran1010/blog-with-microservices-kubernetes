@@ -15,7 +15,7 @@ spec:
       containers:
         - name: comments
           image: viettran1010/comments
-          imagePullPolicy: Always
+          # imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
